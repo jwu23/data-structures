@@ -31,7 +31,7 @@ queueMethods.dequeue = function() {
   var val = this[this.deqCount];
   delete this[this.deqCount];
   this.deqCount++;
-  console.log("THIS:",this);
+  //console.log("THIS:",this);
   // for (var key in this) {
   //   this[key - 1] = this[key];
   //   delete this[key];
